@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1400" height="700">
+<defs>
+<style type="text/css"> @import url(https://fonts.googleapis.com/css2?family=Viga:wght@400&amp;display=swap); </style>
+</defs>
+<g>
+<g transform="translate(700,348) rotate(0,0,0)">
+<a xlink:href="hilfe.php">
+<text fill="#021f59" stroke="none" font-family="Viga" font-size="60.4737px" font-style="normal" font-weight="400" x="-163.8333282470703" y="-24.189480000000003" text-anchor="start" dominant-baseline="alphabetic">Online-Hilfe</text>
+</a>
+</g>
+<g transform="translate(552,348) rotate(-90,0,0)">
+<a xlink:href="hilfe.php">
+<text fill="#32628c" stroke="none" font-family="Viga" font-size="60.4737px" font-style="normal" font-weight="400" x="-156.14999389648438" y="-24.189480000000003" text-anchor="start" dominant-baseline="alphabetic">Psychologe</text>
+</a>
+</g>
+<g transform="translate(696,404) rotate(0,0,0)">
+<a xlink:href="hilfe.php">
+<text fill="#61a2ca" stroke="none" font-family="Viga" font-size="60.4737px" font-style="normal" font-weight="400" x="-63.94166564941406" y="-24.189480000000003" text-anchor="start" dominant-baseline="alphabetic">Hilfe</text>
+</a>
+</g>
+<g transform="translate(756,292) rotate(0,0,0)">
+<a xlink:href="sex.php">
+<text fill="#30588c" stroke="none" font-family="Viga" font-size="60.4737px" font-style="normal" font-weight="400" x="-206" y="-24.189480000000003" text-anchor="start" dominant-baseline="alphabetic">Sexualtherapie</text>
+</a>
+</g>
+<g transform="translate(712,236) rotate(0,0,0)">
+<a xlink:href="wir.php">
+<text fill="#32628c" stroke="none" font-family="Viga" font-size="60.4737px" font-style="normal" font-weight="400" x="-177.21665954589844" y="-24.189480000000003" text-anchor="start" dominant-baseline="alphabetic">Paartherapie</text>
+</a>
+</g>
+<g transform="translate(648,448) rotate(-90,0,0)">
+<a xlink:href="hilfe.php">
+<text fill="#03318c" stroke="none" font-family="Viga" font-size="60.4737px" font-style="normal" font-weight="400" x="-120.78333282470703" y="-24.189480000000003" text-anchor="start" dominant-baseline="alphabetic">Therapie</text>
+</a>
+</g>
+<g transform="translate(708,436) rotate(-90,0,0)">
+<a xlink:href="hilfe.php">
+<text fill="#03318c" stroke="none" font-family="Viga" font-size="60.4737px" font-style="normal" font-weight="400" x="-46.55833435058594" y="-24.189480000000003" text-anchor="start" dominant-baseline="alphabetic">Rat</text>
+</a>
+</g>
+<g transform="translate(800,424) rotate(0,0,0)">
+<a xlink:href="ich.php">
+<text fill="#32628c" stroke="none" font-family="Viga" font-size="30.2369px" font-style="normal" font-weight="400" x="-109.93333435058594" y="-12.094740000000002" text-anchor="start" dominant-baseline="alphabetic">Unzufriedenheit</text>
+</a>
+</g>
+<g transform="translate(580,444) rotate(-90,0,0)">
+<a xlink:href="wir.php">
+<text fill="#021f59" stroke="none" font-family="Viga" font-size="30.2369px" font-style="normal" font-weight="400" x="-115.03333282470703" y="-12.094740000000002" text-anchor="start" dominant-baseline="alphabetic">Außenbeziehung</text>
+</a>
+</g>
+<g transform="translate(724,512) rotate(-90,0,0)">
+<a xlink:href="wir.php">
+<text fill="#61a2ca" stroke="none" font-family="Viga" font-size="30.2369px" font-style="normal" font-weight="400" x="-94.19999694824219" y="-12.094740000000002" text-anchor="start" dominant-baseline="alphabetic">Partnerschaft</text>
+</a>
+</g>
+<g transform="translate(484,356) rotate(-90,0,0)">
+<a xlink:href="ich.php">
+<text fill="#32628c" stroke="none" font-family="Viga" font-size="30.2369px" font-style="normal" font-weight="400" x="-100.51667022705078" y="-12.094740000000002" text-anchor="start" dominant-baseline="alphabetic">Prüfungsangst</text>
+</a>
+</g>
+<g transform="translate(864,368) rotate(0,0,0)">
+<a xlink:href="ich.php">
+<text fill="#32628c" stroke="none" font-family="Viga" font-size="30.2369px" font-style="normal" font-weight="400" x="-103.25833129882812" y="-12.094740000000002" text-anchor="start" dominant-baseline="alphabetic">Wertschätzung</text>
+</a>
+</g>
+<g transform="translate(756,508) rotate(-90,0,0)">
+<a xlink:href="ich.php">
+<text fill="#61a2ca" stroke="none" font-family="Viga" font-size="30.2369px" font-style="normal" font-weight="400" x="-92.23332977294922" y="-12.094740000000002" text-anchor="start" dominant-baseline="alphabetic">Zufriedenheit</text>
+</a>
+</g>
+<g transform="translate(452,352) rotate(-90,0,0)">
+<a xlink:href="ich.php">
+<text fill="#03318c" stroke="none" font-family="Viga" font-size="30.2369px" font-style="normal" font-weight="400" x="-94.90833282470703" y="-12.094740000000002" text-anchor="start" dominant-baseline="alphabetic">Enttäuschung</text>
+</a>
+</g>
+<g transform="translate(788,492) rotate(-90,0,0)">
+<a xlink:href="ich.php">
+<text fill="#32628c" stroke="none" font-family="Viga" font-size="30.2369px" font-style="normal" font-weight="400" x="-77.05833435058594" y="-12.094740000000002" text-anchor="start" dominant-baseline="alphabetic">Depression</text>
+</a>
+</g>
+<g transform="translate(692,168) rotate(0,0,0)">
+<a xlink:href="ich.php">
+<text fill="#32628c" stroke="none" font-family="Viga" font-size="30.2369px" font-style="normal" font-weight="400" x="-77.06666564941406" y="-12.094740000000002" text-anchor="start" dominant-baseline="alphabetic">Einsamkeit</text>
+</a>
+</g>
+<g transform="translate(688,136) rotate(0,0,0)">
+<a xlink:href="ich.php">
+<text fill="#30588c" stroke="none" font-family="Viga" font-size="30.2369px" font-style="normal" font-weight="400" x="-73.56666564941406" y="-12.094740000000002" text-anchor="start" dominant-baseline="alphabetic">Selbstwert</text>
+</a>
+</g>
+<g transform="translate(948,336) rotate(0,0,0)">
+<a xlink:href="ich.php">
+<text fill="#03318c" stroke="none" font-family="Viga" font-size="30.2369px" font-style="normal" font-weight="400" x="-77.5999984741211" y="-12.094740000000002" text-anchor="start" dominant-baseline="alphabetic">Wohlfühlen</text>
+</a>
+</g>
+<g transform="translate(856,456) rotate(0,0,0)">
+<a xlink:href="wir.php">
+<text fill="#32628c" stroke="none" font-family="Viga" font-size="30.2369px" font-style="normal" font-weight="400" x="-72.20833587646484" y="-12.094740000000002" text-anchor="start" dominant-baseline="alphabetic">Beziehung</text>
+</a>
+</g>
+<g transform="translate(692,544) rotate(-90,0,0)">
+<a xlink:href="wir.php">
+<text fill="#03318c" stroke="none" font-family="Viga" font-size="30.2369px" font-style="normal" font-weight="400" x="-62.30833435058594" y="-12.094740000000002" text-anchor="start" dominant-baseline="alphabetic">Konflikte</text>
+</a>
+</g>
+<g transform="translate(420,352) rotate(-90,0,0)">
+<a xlink:href="wir.php">
+<text fill="#61a2ca" stroke="none" font-family="Viga" font-size="30.2369px" font-style="normal" font-weight="400" x="-72.00833129882812" y="-12.094740000000002" text-anchor="start" dominant-baseline="alphabetic">Scheidung</text>
+</a>
+</g>
+<g transform="translate(856,488) rotate(0,0,0)">
+<a xlink:href="ich.php">
+<text fill="#03318c" stroke="none" font-family="Viga" font-size="30.2369px" font-style="normal" font-weight="400" x="-72.4749984741211" y="-12.094740000000002" text-anchor="start" dominant-baseline="alphabetic">Sehnsucht</text>
+</a>
+</g>
+<g transform="translate(964,400) rotate(0,0,0)">
+<a xlink:href="wir.php">
+<text fill="#61a2ca" stroke="none" font-family="Viga" font-size="30.2369px" font-style="normal" font-weight="400" x="-65.83333587646484" y="-12.094740000000002" text-anchor="start" dominant-baseline="alphabetic">Trennung</text>
+</a>
+</g>
+<g transform="translate(848,520) rotate(0,0,0)">
+<a xlink:href="ich.php">
+<text fill="#32628c" stroke="none" font-family="Viga" font-size="30.2369px" font-style="normal" font-weight="400" x="-63.94166564941406" y="-12.094740000000002" text-anchor="start" dominant-baseline="alphabetic">Versagen</text>
+</a>
+</g>
+<g transform="translate(660,544) rotate(-90,0,0)">
+<a xlink:href="ich.php">
+<text fill="#021f59" stroke="none" font-family="Viga" font-size="30.2369px" font-style="normal" font-weight="400" x="-55.349998474121094" y="-12.094740000000002" text-anchor="start" dominant-baseline="alphabetic">Burnout</text>
+</a>
+</g>
+<g transform="translate(560,176) rotate(0,0,0)">
+<a xlink:href="ich.php">
+<text fill="#30588c" stroke="none" font-family="Viga" font-size="30.2369px" font-style="normal" font-weight="400" x="-57.17499923706055" y="-12.094740000000002" text-anchor="start" dominant-baseline="alphabetic">Freunde</text>
+</a>
+</g>
+<g transform="translate(828,168) rotate(0,0,0)">
+<a xlink:href="ich.php">
+<text fill="#03318c" stroke="none" font-family="Viga" font-size="30.2369px" font-style="normal" font-weight="400" x="-53.599998474121094" y="-12.094740000000002" text-anchor="start" dominant-baseline="alphabetic">Grübeln</text>
+</a>
+</g>
+<g transform="translate(840,552) rotate(0,0,0)">
+<a xlink:href="wir.php">
+<text fill="#30588c" stroke="none" font-family="Viga" font-size="30.2369px" font-style="normal" font-weight="400" x="-55.20000076293945" y="-12.094740000000002" text-anchor="start" dominant-baseline="alphabetic">Untreue</text>
+</a>
+</g>
+<g transform="translate(492,200) rotate(-90,0,0)">
+<a xlink:href="ich.php">
+<text fill="#32628c" stroke="none" font-family="Viga" font-size="30.2369px" font-style="normal" font-weight="400" x="-49.65833282470703" y="-12.094740000000002" text-anchor="start" dominant-baseline="alphabetic">Zweifel</text>
+</a>
+</g>
+<g transform="translate(812,136) rotate(0,0,0)">
+<a xlink:href="ich.php">
+<text fill="#61a2ca" stroke="none" font-family="Viga" font-size="30.2369px" font-style="normal" font-weight="400" x="-44.24166488647461" y="-12.094740000000002" text-anchor="start" dominant-baseline="alphabetic">Kriese</text>
+</a>
+</g>
+<g transform="translate(1012,368) rotate(0,0,0)">
+<a xlink:href="ich.php">
+<text fill="#30588c" stroke="none" font-family="Viga" font-size="30.2369px" font-style="normal" font-weight="400" x="-42.625" y="-12.094740000000002" text-anchor="start" dominant-baseline="alphabetic">Schlaf</text>
+</a>
+</g>
+<g transform="translate(964,440) rotate(-90,0,0)">
+<a xlink:href="ich.php">
+<text fill="#03318c" stroke="none" font-family="Viga" font-size="30.2369px" font-style="normal" font-weight="400" x="-48.36666488647461" y="-12.094740000000002" text-anchor="start" dominant-baseline="alphabetic">Sorgen</text>
+</a>
+</g>
+<g transform="translate(388,344) rotate(-90,0,0)">
+<a xlink:href="wir.php">
+<text fill="#32628c" stroke="none" font-family="Viga" font-size="30.2369px" font-style="normal" font-weight="400" x="-37.91666793823242" y="-12.094740000000002" text-anchor="start" dominant-baseline="alphabetic">Streit</text>
+</a>
+</g>
+<g transform="translate(996,436) rotate(-90,0,0)">
+<a xlink:href="ich.php">
+<text fill="#03318c" stroke="none" font-family="Viga" font-size="30.2369px" font-style="normal" font-weight="400" x="-43.58333206176758" y="-12.094740000000002" text-anchor="start" dominant-baseline="alphabetic">Stress</text>
+</a>
+</g>
+<g transform="translate(996,244) rotate(-90,0,0)">
+<a xlink:href="ich.php">
+<text fill="#32628c" stroke="none" font-family="Viga" font-size="30.2369px" font-style="normal" font-weight="400" x="-50.19166564941406" y="-12.094740000000002" text-anchor="start" dominant-baseline="alphabetic">Unruhe</text>
+</a>
+</g>
+<g transform="translate(816,584) rotate(0,0,0)">
+<a xlink:href="ich.php">
+<text fill="#61a2ca" stroke="none" font-family="Viga" font-size="30.2369px" font-style="normal" font-weight="400" x="-39.59166717529297" y="-12.094740000000002" text-anchor="start" dominant-baseline="alphabetic">Angst</text>
+</a>
+</g>
+<g transform="translate(924,224) rotate(0,0,0)">
+<a xlink:href="ich.php">
+<text fill="#30588c" stroke="none" font-family="Viga" font-size="30.2369px" font-style="normal" font-weight="400" x="-36.36666488647461" y="-12.094740000000002" text-anchor="start" dominant-baseline="alphabetic">Frust</text>
+</a>
+</g>
+<g transform="translate(1028,264) rotate(-90,0,0)">
+<a xlink:href="ich.php">
+<text fill="#61a2ca" stroke="none" font-family="Viga" font-size="30.2369px" font-style="normal" font-weight="400" x="-38.59166717529297" y="-12.094740000000002" text-anchor="start" dominant-baseline="alphabetic">Glück</text>
+</a>
+</g>
+<g transform="translate(508,544) rotate(0,0,0)">
+<a xlink:href="wir.php">
+<text fill="#03318c" stroke="none" font-family="Viga" font-size="30.2369px" font-style="normal" font-weight="400" x="-37.50833511352539" y="-12.094740000000002" text-anchor="start" dominant-baseline="alphabetic">Liebe</text>
+</a>
+</g>
+<g transform="translate(560,152) rotate(0,0,0)">
+<a xlink:href="ich.php">
+<text fill="#03318c" stroke="none" font-family="Viga" font-size="30.2369px" font-style="normal" font-weight="400" x="-33.016666412353516" y="-12.094740000000002" text-anchor="start" dominant-baseline="alphabetic">Ziele</text>
+</a>
+</g>
+<g transform="translate(428,264) rotate(0,0,0)">
+<a xlink:href="wir.php">
+<text fill="#021f59" stroke="none" font-family="Viga" font-size="30.2369px" font-style="normal" font-weight="400" x="-26.024999618530273" y="-12.094740000000002" text-anchor="start" dominant-baseline="alphabetic">Ehe</text>
+</a>
+</g>
+<g transform="translate(480,488) rotate(-90,0,0)">
+<a xlink:href="sex.php">
+<text fill="#61a2ca" stroke="none" font-family="Viga" font-size="30.2369px" font-style="normal" font-weight="400" x="-25.183332443237305" y="-12.094740000000002" text-anchor="start" dominant-baseline="alphabetic">Sex</text>
+</a>
+</g>
+<g transform="translate(456,472) rotate(-90,0,0)">
+<a xlink:href="ich.php">
+<text fill="#32628c" stroke="none" font-family="Viga" font-size="30.2369px" font-style="normal" font-weight="400" x="-22.91666603088379" y="-12.094740000000002" text-anchor="start" dominant-baseline="alphabetic">Uni</text>
+</a>
+</g>
+</g>
+</svg>

@@ -1,0 +1,548 @@
+/* Stylesheet für gdt 
+  responsives Layout mit Flexbox ab Z. 262   */
+
+/* ====================================================   GLOBAL DEFINITION   ==================================================== */
+
+/* alternatives Boxmodell */
+html { 
+  box-sizing: border-box; 
+} 
+
+*, ::before, ::after { 
+  box-sizing: inherit; 
+}
+
+body {
+    max-width: 75em;
+    margin: 0 auto; 
+	padding: 0 1em;
+    font: normal 1em Arial, sans-serif;  /* Mindestschriftgröße wird dem Browser, bzw. dem Nutzer überlassen! */
+	color: #555;
+    background: #ddd;
+	position:relative;
+}
+
+/* ===== header ===== */
+
+header.banner {
+	background: #fff;
+	padding: .5em .5em;
+	box-shadow: 0 0 10px rgba(0,0,0,0.2);
+	border-radius: 0 0 1em 1em;
+}
+
+#gdt {
+	float: right;
+	padding: 0em 2.5em 0em 0em;
+}
+
+/* a#gdt:hover,  	/* nur für a:grün und Überschriften orange! zusätzlich eingefügt! sonst im gdt-Logo grüne hovers */
+/* a#gdt:focus,
+a#gdt:active {
+	background: rgba(255,201,51,0.95);
+} */
+
+
+.img-shadow {
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.2);
+}
+	
+
+#logo {
+	margin: 22px 0 0 3%;
+	color: #666666;
+	font-size:1.5em;
+	font-style:italic;
+	font-weight:bold;
+	text-decoration: none;
+}
+
+header a#navlink {
+	display: block;
+	float: right;
+	color: #99b300;
+	text-decoration: none;
+	font-size: 2em;
+	font-weight: bold;
+}
+		
+/* ===== content / Inhalt ===== */
+	
+main {
+	padding: 1em;
+	background: #fff;
+	box-shadow: 0 0 10px rgba(0,0,0,0.2);
+	border-radius: 1em;  
+}
+
+a {
+	color: #99b300; 
+	text-decoration: none;   /*  eingefügt  */
+}
+
+a:hover,
+a:focus,
+a:active {
+	background: rgba(195,214,106,0.95);  /*  grün  */
+	color: #779900;  /*  grün  */
+}
+
+
+/* button orange  */ 
+/* 	a.button{
+/* 		background: #FFA600;
+/* 		font-weight: bold;
+/* 		box-shadow: 0 0 20px #FFDD66 inset, 0 2px 1px rgba(0,0,0,0.2);
+/* 		color: #fff;  /* statt fff */
+/* 		padding: 0.4em;
+/* 		border-radius: .5em;
+/* 		text-decoration: none;	
+/* 	}
+/* 	a.button:hover,
+/* 	a.button:focus,
+/* 	a.button:active {
+/* 		background: #EE9033;
+/* 	}  */
+
+/* button grün  */
+a.button{
+	background: #99b300;
+	font-weight: bold;
+	box-shadow: 0 0 20px #ccdd33 inset, 0 2px 1px rgba(0,0,0,0.2);
+	color: #fff;  /* statt fff */
+	padding: 0.4em;
+	border-radius: .5em;
+	text-decoration: none;	
+}
+a.button:hover,
+a.button:focus, 
+a.button:active {
+	background: #779900;
+}
+
+
+h1 {
+}
+
+h1 span,
+h2 span,
+.akzent1 {
+	color: #aabb33;
+}
+
+h1 a:hover span,
+h1 a:focus span, 
+h1 a:active span, 
+h2 a:hover span,
+h2 a:focus span,
+h2 a:active span {
+/* 	background: rgba(255,201,51,0.95);	/* zusätzlich eingefügt! sonst im Spaltenkopf grüne hovers */
+    color: #fff;
+}
+
+/* h1 a:hover ,							/* zusätzlich eingefügt! sonst im Spaltenkopf grüne hovers */
+/* h1 a:focus ,							/* zusätzlich eingefügt! sonst im Spaltenkopf grüne hovers */
+/* h1 a:active ,							/* zusätzlich eingefügt! sonst im Spaltenkopf grüne hovers */
+/* h2 a:hover ,							/* zusätzlich eingefügt! sonst im Spaltenkopf grüne hovers */
+/* h2 a:focus,								/* zusätzlich eingefügt! sonst im Spaltenkopf grüne hovers */
+/* h2 a:active {							/* zusätzlich eingefügt! sonst im Spaltenkopf grüne hovers */
+/* background: rgba(255,201,51,0.95);	/* zusätzlich eingefügt! sonst im Spaltenkopf grüne hovers */
+/* color: #EE9033;						/* zusätzlich eingefügt! sonst im Spaltenkopf grüne hovers */
+/* }  */
+
+.akzent2 {
+	color: #FFB300;
+}
+
+h2 {
+}
+
+
+/* h1 span,           /* wirkt auf <h1><span>, <h1>akzent1, <h2><span>, <h2>akzent1 */
+/* h1 .akzent1,
+/* h2 span, 
+/* h2 .akzent1 {
+/* 	color: #AABB33;  
+/* }
+/* 
+/* h1 .akzent2,  /*  wirkt auf <h1>akzent2, <h2>akzent2,  aber wirkt nicht gegen <span  */
+/* h2 .akzent2 {
+/* 	color: #FFB300;
+/* }
+*/
+
+
+aside,
+section {
+	box-shadow: 0 0 80px rgba(0,0,0,0.1) inset, 0 3px 1px rgba(0,0,0,0.15);
+	border-radius: 1em;
+	position: relative;
+	padding: 0 0 4em;     /* Platz für abslout positionierte Buttons */
+}
+
+aside.nospace,
+section.nospace {
+	padding: 0 0 1em;     /* ergänzt: nur soviel Rand wie Rand von Buttons: 1em */
+}
+
+
+aside h2,
+section h2,
+top h2 {
+	color: #fff;  /* statt fff */
+	padding: .4em;
+	margin: 0;
+	background: rgba(195,214,106,0.95);  /* 195,214,106 = #C3D66A  */
+	border-radius: .5em;
+	box-shadow: 0 3px 0 #779900;
+}
+
+aside h2 a,    /* ganzen Abschnitt eingefügt */
+section h2 a {
+	color: #fff;
+	text-decoration: none;
+}
+
+
+section p {
+	padding: 0em 1em 0em;  /* .4em 1 0em; */ /*  3x: oben rechts+links unten || 4x: oben rechts unten links */
+}
+
+section p:first-of-type ,
+.first {
+	font-weight: bold;
+	color: #779900;	/*  dunkelgrün  */
+		padding: .5em 0em 0em 1em;  /*  3x: oben rechts+links unten || 4x: oben rechts unten links */
+}
+
+section img {
+  width: calc(100% - 1em);
+  margin: 0em .5em 0em;
+	padding: 0em ;
+}
+
+aside {
+}
+
+section a.button {			
+	position: absolute;	/* So werden Buttons immer an der gleichen Stelle, unabhängig vom vorhandenen Inhalt, positioniert */
+	right: 1em;
+	bottom: 1em;
+}
+
+form.kontakt,
+formspan {   /* hinzugefügt */
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);  /* statt 	grid-template-columns: repeat(2, 1fr);  */
+	grid-gap:.5em; 
+	padding: .5em; 
+}
+
+form.kontakt input, text, textarea, radio, select, checkbox, date, button,
+formspan input, text, textarea, radio, select, checkbox, date, button {  /* hinzugefügt */
+	background: rgba(255,255,255,1);   /*#235;   /* stat #555   */
+	border-radius: 4px;
+	border: none;
+	color: #222;   /*statt fff  */
+	/* padding: 01em 01em 01em 2.5em; */
+	padding: .4em .1em .4em .6em;
+	box-shadow: 0 0 10px rgba(0,0,0,0.1) inset, 3px 3px 1px rgba(0,0,0,0.15);
+	font-weight: bold;
+	border: 1px  solid #999;  /* hinzugefügt   */
+	border-radius: 1em;   /* hinzugefügt  */
+	width: 14em;
+}
+
+form.kontakt button,   /*  eingefügt  */
+formspan button {
+	background: rgba(0,0,0,0.05);   /* stat #555   */	
+	padding: 0em; 
+	
+}
+
+form.kontakt button:hover,   /*  eingefügt  */
+form.kontakt button:focus,
+form.kontakt button:active,
+formspan button:hover,
+formspan button:focus,
+formspan button:active {
+	background: rgba(0,0,0,0.1);   /* stat #555   */	
+}
+
+
+
+
+form#search{ 
+	position:relative;
+}	
+
+form#search input {
+	width: 15em;
+	margin: 0 1em;
+}		
+
+#search i {
+	position: absolute;
+	top: 1.2em;
+	left: 11em;
+	color: #bebebe;
+}
+
+section ul {
+	margin: 1em 0 0 3em;
+}
+		
+section li {
+	/* font-weight: bold;  */
+	/*margin: 0.5em 0 1em 1.5em; */
+	  margin: 0.5em 0.5em 0em 0.5em;
+}
+section li i {
+	color: #99b300; 
+}
+
+dl.grid { 
+  display: grid; 
+  grid-template-columns: repeat(2, 1fr);
+  padding: 0.5em;
+}
+dd { 
+  margin: 0; 
+  padding-left: 0em; /* statt 1em */
+}
+dl.grid dd {
+  margin-bottom: 1em;
+}
+
+a[href^="tel]" { white-space: nowrap; }
+
+/* ===== Navigation ===== */
+
+#navigation li {
+	display: block;
+	list-style: none;
+	margin-right: .5em; 
+	width: 90%;
+}
+
+#navigation a {
+	display: block; 
+	text-decoration: none;
+	padding: 0.5em 1em;
+	background-color: #fff;
+	border-radius: .5em .5em 0 0;	
+}
+
+#navigation a[aria-current=page] {
+	font-weight:bold;
+    background: linear-gradient(rgba(195,214,106,0.95), #fff);  /*  grün   */
+}
+
+#navigation a:hover,
+#navigation a:focus, 
+#navigation a:active  {
+	color: white;
+    background: linear-gradient(#99b300, #fff);  /*  grün  */
+}		
+
+/* ===== Footer ===== */
+	
+#social {
+	float: left;
+}
+
+#social li {
+	margin: 0 20px 0 0;
+	display:inline-block;;
+}
+	
+#fb {
+	background: url("../img/fb.png") no-repeat;
+	float: left;
+	width: 16px;
+	height: 16px;
+}
+	
+#twitter {
+	background: url("../img/twitter.png") no-repeat;
+	float: left;
+	width: 16px;
+	height: 16px;
+}
+	
+#yt {
+	background: url("../img/yt.png") no-repeat;
+	float: left;
+	width: 16px;
+	height: 16px;
+}
+	
+footer #copyright {
+	float: right;
+}
+
+footer #impressum {
+	float: left;
+}
+
+/* ===== responsives Layout ===== */
+
+/* Mobile first! 1-Spaltenlayout  */
+
+
+/* 2-Spaltenlayout, sobald der Platz es erlaubt  */
+
+@media only screen and (min-width: 40em) {
+  main {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap:1em;
+	position: relative;
+	margin: 3em auto 1em;
+  }
+  
+  article {
+	grid-column: span 2;
+  }
+  
+  header a#navlink {
+	display: none;
+  }
+
+  #navigation  {
+    position: absolute;
+    top: -3em;
+  }
+  
+  #navigation li {
+	display: inline-block;
+	width: auto;
+}
+
+#navigation a {
+	display: inline-block; 
+}
+
+/* 3-Spaltenlayout, sobald der Platz es erlaubt  */
+@media only screen and (min-width: 60em) {
+  main {
+	grid-template-columns: repeat(3, 1fr);
+  }
+
+	main header,
+	main footer {
+	  grid-column: span 3;
+	}
+
+	article{
+	  grid-column: span 2;		
+	}
+}
+
+/* Flexbox Fallback wenn der  Browser kein display:grid unterstützt. */
+@supports not (display: grid) {
+  main {
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+main > * {
+  flex: 1 100%;      /* Alle Elemente werden über die volle Breite dargestellt */
+} 
+
+article {
+  flex: 1 64%;      
+  margin: 1%;
+}
+section,
+aside {
+  flex: 1 31%;      /* Diese Elemente erhalten eine Breite von 1/3.  */
+  margin: 1%;
+}
+}
+
+
+
+/* ===== Slider-Buttons ===== */
+
+.toggle label {
+	position: relative;
+	display: inline-block;
+	width: 1em;  /* statt 10  */
+	height: 1.6em;  /*  statt 3.5 , definiert den Zeilenabstand */
+}
+
+.toggle input {
+	display: none;
+}
+
+.toggle .slider {
+	/* Grundfläche */
+	
+	position: absolute;
+	cursor: pointer;
+	top: 0em;  /*  versetzt den gesamten Button nach unten */
+	left: 0em;     /*  statt  2.2 */
+	width: 2.4em;  /*  statt  4 */
+	height: 1.2em;  /*  statt  2 */
+	background-color: #666666;
+	/* red */
+	
+	transition: all .3s ease-in-out;
+	border-radius: 1em;
+}
+
+.toggle .slider:before {
+	/* verschiebbarer Button */
+	
+	position: absolute;
+	content: "";
+	height: .8em;  /*  statt  1.6em */
+	width: .8em;  /*  statt  1.6em */
+	left: 0.2em;
+	bottom: 0.2em;  /*  statt  0.2em */
+	background-color: white;
+	border-radius: 50%;
+	transition: all .3s ease-in-out;
+}
+
+.toggle input:checked + .slider {
+	background-color: #99b300;
+	/* green */
+}
+
+.toggle input:focus + .slider {
+	background-color: pink;
+	box-shadow: 0 0 1px #99b300;
+}
+
+.toggle input:checked + .slider:before {
+	-webkit-transform: translateX(1.2em);  /*  statt 1.9  */
+	/* Android 4 */
+	
+	-ms-transform: translateX(1.2em);  /*  statt 1.9  */
+	/* IE9 */
+	
+	transform: translateX(1.2em);  /*  statt 1.9  */
+}
+
+.text .slider:after {
+	/* Text vor dem FlipFlop-Schalter */
+	
+	position: absolute;
+	content: "";
+	color: #666666;
+	font-weight: bold;
+	height: .8em;  /*  statt  1.6em */
+	left: -2.2em;  /*  statt  -2.5em */
+	bottom: 0.2em;  /*  statt  0.2em */
+}
+
+.text input:checked + .slider:after {
+	/* Text hinter dem FlipFlop-Schalter */
+	
+	position: absolute;
+	content: "ja";
+	color: #99b300;
+	left: 2.6em;  /*  statt  4.5em */
+}
